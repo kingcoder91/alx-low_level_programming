@@ -2,14 +2,14 @@
 #include <stdio.h> 
 
 /**
- * main - check the code
+ * main - checks the code
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-    int nb;
+	int nb;
 
 	nb = _atoi("98");
 	printf("%d\n", nb);
