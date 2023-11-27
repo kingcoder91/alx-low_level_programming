@@ -6,12 +6,11 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * creates_buffer - this function allocates 1024 bytes for a buffer.
+ * create_buffer - this function allocates 1024 bytes for a buffer.
  * @file: the name of the file buffer is storing chars for.
  *
  * Return: a pointer to the newly-allocated buffer.
  */
-
 char *creates_buffer(char *file)
 {
 	char *buffer;
@@ -32,7 +31,6 @@ char *creates_buffer(char *file)
  * close_file - this function closes file descriptors.
  * @fd: The file descriptor to be closed.
  */
-
 void close_file(int fd)
 {
 	int c;
@@ -58,7 +56,6 @@ void close_file(int fd)
  * If file_to cannot be created or written to - exit code 99.
  * If file_to or file_from cannot be closed - exit code 100.
  */
-
 int main(int argc, char *argv[])
 {
 	int from, to, r, w;
